@@ -31,6 +31,6 @@ if (notasMedia >=  7) {
   if (novaMedia >= 5) {
     alert (`O Aluno foi Aprovado por Exame. Nota da Media ${novaMedia.toFixed(2)}!`)
   } else {
-    alert (`O Aluno foi Reprovado. Nota da Media ${novaMedia.toFixed(2)}!`)
+    alert (`O Aluno foi Reprovado. Nota da Media ${notasMedia.toFixed(2)}!`)
   }
 }
