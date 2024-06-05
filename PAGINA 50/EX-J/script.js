@@ -17,4 +17,4 @@ do {
   quociente++
 } while (dividendo > divisor)
 
-alert (`O resultado da divisão é ${quociente}`)
+alert (`O resultado da divisão é ${quociente + 1}`)
