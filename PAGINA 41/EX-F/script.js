@@ -14,19 +14,19 @@ ValorA = parseFloat(prompt("Digite o valor de A: "))
 ValorB = parseFloat(prompt("Digite o valor de B: "))
 ValorC = parseFloat(prompt("Digite o valor de C: "))
 
-if (A > B) {
+if (ValorA > ValorB) {
   variavelDeAjuste = ValorA
   ValorA = ValorB
   ValorB = variavelDeAjuste
 }
 
-if (B > C) {
+if (ValorB > ValorC) {
   variavelDeAjuste = ValorB
   ValorB = ValorC
   ValorC = variavelDeAjuste
 }
 
-if (A > B) {
+if (ValorA > ValorB) {
   variavelDeAjuste = ValorA
   ValorA = ValorB
   ValorB = variavelDeAjuste
